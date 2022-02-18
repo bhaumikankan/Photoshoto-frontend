@@ -56,21 +56,21 @@ function ImageView({id}) {
      <p className="text-lime-600 mt-2">Share this using</p>
      <div className="flex gap-2">
          <FacebookShareButton
-         url={'http://localhost:3000/Image/'+photo._id}
+         url={'https://620f9d10f4cf1d0007524a5c--gracious-fermi-5d5f07.netlify.app/Image/'+photo._id}
          quote={'checkout this image post or get only image from '+photo.photouri}
          >
          <FacebookIcon size={32}/>
          </FacebookShareButton>
 
          <WhatsappShareButton
-         url={'http://localhost:3000/Image/'+photo._id}
+         url={'https://620f9d10f4cf1d0007524a5c--gracious-fermi-5d5f07.netlify.app/Image/'+photo._id}
          quote={'checkout this image post or get only image from '+photo.photouri}
          >
          <WhatsappIcon size={32}/>
          </WhatsappShareButton>
 
          <LinkedinShareButton
-         url={'http://localhost:3000/Image/'+photo._id}
+         url={'https://620f9d10f4cf1d0007524a5c--gracious-fermi-5d5f07.netlify.app/Image/'+photo._id}
          quote={'checkout this image post or get only image from '+photo.photouri}
          >
          <LinkedinIcon size={32}/>
