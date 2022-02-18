@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import { useState } from "react";
 import axios  from "axios";
 
-function login() {
+function Login() {
   const router = useRouter();
   const[email,setEmail]=useState("");
   const[password,setPassword]=useState("");
@@ -70,4 +70,4 @@ function login() {
   );
 }
 
-export default login;
+export default Login;

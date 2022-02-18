@@ -7,7 +7,7 @@ import Navbar from "../../components/Navbar"
 import * as imageConversion from 'image-conversion';
 
 const ipfs = create("https://ipfs.infura.io:5001/api/v0");
-function createPost() {
+function CreatePost() {
   const router = useRouter();
   const [caption, setCaption] = useState("");
   const [file, setFile] = useState(undefined);
@@ -112,4 +112,4 @@ function createPost() {
   );
 }
 
-export default createPost;
+export default CreatePost;

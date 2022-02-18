@@ -9,7 +9,7 @@ import {RefreshIcon} from '@heroicons/react/outline'
 const client = new Web3Storage({ token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDlmMjY0Nzk1YWJmZDJjOWI1MjMxNmJCRDZBOTQxNDYzNTZCODI3NzAiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2NDQ5MjMzMjYyNzgsIm5hbWUiOiJQaG90b3Nob3RvIn0.IdhbnggEcoP_pd0CZYilnbYJ_xMQXdA6Afk41VdQUj4' })
 const ipfs = create('https://ipfs.infura.io:5001/api/v0')
 
-function register() {
+function Register() {
   const router = useRouter();
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
@@ -128,4 +128,4 @@ function register() {
   );
 }
 
-export default register;
+export default Register;
