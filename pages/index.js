@@ -60,7 +60,7 @@ export default function Home({ result }) {
         
         {photos.map((photo, index) => (
            <div key={index} className="relative cursor-pointer transition ease-in-out shadow-lg border-2 border-lime-200    hover:scale-105  " href={`${photo.imageuri}`}>
-            <Link href={`/Image/${photo._id}`}><a><Image src={photo.imageuri} height={500} width={500} /></a></Link>
+            <Link href={`/Image/${photo._id}`}><a><Image alt="Image" src={photo.imageuri} height={500} width={500} /></a></Link>
             <div className="flex justify-between items-center p-2">
               <p className="font-bold uppercase text-lime-600" >{photo.caption}</p>
               <button className="bg-lime-600 text-white p-1" onClick={() => {saveAs(photo.imageuri,photo.caption)}}>Download</button>

@@ -44,6 +44,7 @@ function ImageView({id}) {
       <div className="border-4 border-lime-100">
         <Image  
         layout='responsive'
+        alt='img'
           src={url} 
           height={200}
           width={500}

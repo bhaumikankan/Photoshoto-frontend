@@ -63,7 +63,7 @@ function Login() {
           className="text-blue-500 text-center mt-1"
           onClick={gotoRegister}
         >
-          Don't have a account,click here
+          Don not have a account,click here
         </button>
       </form>
     </div>
